@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yiran's Website</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="navbar">
+
+    <div class="menu">
+      <div>
+          <a class="navbar-link" href="https://yiranluc.github.io/Personal-Website/">About Me</a>
+      </div>
+
+      <div>
+          <a class="navbar-link" href="https://yiranluc.github.io/Personal-Website/projects">Projects</a>
+      </div>
+
+      <div>
+          <a class="navbar-link" href="https://yiranluc.github.io/Personal-Website/blogs">Blogs</a>
+      </div>
+
+      <div>
+          <a class="navbar-link" href="https://yiranluc.github.io/Personal-Website/contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="website-title">Yiran's Website</div>
+
+  </div>
+
+  <main>
+
+    <div class="main-content">
+
+      <article class="about-me">
+
+        <header>
+            <h2 class="h2 article-title">About Me</h2>
+        </header>
+
+        <section class="basic-info">
+
+          <img class="avatar" src="/assets/images/avatar.PNG" alt="Yiran Wang" loading="lazy">
+
+          <div class="basic-text">
+            <h1 class="name">Welcome :) I am Yiran Wang</h1>
+
+            <div class="about-text">
+              <p>
+                I'm now in my last year of the master's program in Seattle, the States. Before this, I spent 5 years pursuing 
+                my bachelor degrees in the Netherlands. I am always keen on
+                applying code to build beautiful and useful things to make people's life easier.
+                Thus, I eagerly applied for and took several internships in software development at both my bachelor's university and tech companies.
+              </p>
+    
+              <p>
+                Recently, I have grown an interest in surfing
+                (although have taken only two courses so far XD) and I am planning to go to a surfing bootcample some time this year.
+              </p>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="timeline">
+
+            <div class="title-wrapper">
+
+            <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                  <h4 class="h4 timeline-item-title">Northeastern University</h4>
+
+                  <span>2021.09 — 2023.05</span>
+
+                  <p class="timeline-text">
+                    - Master of Science in Computer Science
+                  </p>
+                  <p class="timeline-text">
+                    - Teaching assistant in Data Structures, Algorithms, and Their Applications course.
+                  </p>
+
+              </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Delft University of Technology</h4>
+
+                <span>2018.09 — 2021.07</span>
+
+                <p class="timeline-text">
+                  - Bachelor of Science in Computer Science
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Leiden University</h4>
+
+                <span>2016.09 — 2020.01</span>
+
+                <p class="timeline-text">
+                - Bachelor of Science in Psychology
+                </p>
+
+            </li>
+
+            </ol>
+
+        </section>
+
+        <section class="timeline">
+
+            <div class="title-wrapper">
+            <div class="icon-box">
+                <ion-icon name="people-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Bubble Inc</h4>
+
+                <span>2022.09 — 2022.12, Software Engineer Intern</span>
+
+                <p class="timeline-text">
+                  - Redesigned the file manager page for storing all the files uploaded through the Bubble apps created by users.
+                </p>
+                <p class="timeline-text">
+                  - Rewrote the file manager table with JavaScript and HandsonTable including features: Search files with key words,
+                  delete and upload files, render image previews on table rows, sort the table by columns, and pagination.
+                </p>
+                <p class="timeline-text">
+                  - Deployed 6 other frontend tickets, together the ones mentioned above, 11 tickets in total to the production mode.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Amazon.com</h4>
+                
+                <span>2022.05 — 2022.08, Software Engineer Intern</span>
+
+                <p class="timeline-text">
+                  - Designed and built a service in AWS CDK from scratch, in order to split 5-million-code gaming offers into batches of
+                  suitable sizes for downstream services and call downstream services to ingest the codes.
+                </p>
+                <p class="timeline-text">
+                  - Utilized S3 bucket to store the code offers uploaded from the frontend, Lambda to process the offers, SQS to queue up
+                  the filenames of the batches, and DynamoDB to save the batch statuses returned from downstream services.
+                </p>
+                <p class="timeline-text">
+                  - Decreased the work time, Technical Account Managers spent on getting 5 million codes ingested, from 15 hours to 10
+                  hours. Reduced the frontend query time of code offers' ingestion statuses by 72%.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Delft University of Technology</h4>
+
+              <span>2020.12 — 2021.06, Software Engineer Intern</span>
+
+              <p class="timeline-text">
+                - Extended the Project Forum with over 3000 active users in Ruby on Rails to support internship offer management.
+              </p>
+              <p class="timeline-text">
+                - Achieved a better system scalability by abstracting the existing Project table, creating 3 subclasses for specific types of
+                projects, and rewriting the relevant logic in the entire codebase.
+              </p>
+              <p class="timeline-text">
+                - Developed web pages for submitting and managing internship offers, resulting in an increase of website visits by 22%.
+              </p>
+
+            </li>
+
+            </ol>
+
+        </section>
+
+    </article>
+
+    </div>
+
+  </main>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
