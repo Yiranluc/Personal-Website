@@ -3,9 +3,6 @@
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
 
-  /* font */
-  font-family: 'Nunito', sans-serif;
-
   --fs-1: 24px;
   --fs-2: 18px;
   --fs-3: 17px;
@@ -60,7 +57,7 @@ input, textarea {
 
 :focus { outline-color: #F2D5EA; }
 
-html { font-family: var(font-family); }
+html { font-family: 'Nunito', sans-serif; }
 
 body { background: #A8B2DF; }
 
